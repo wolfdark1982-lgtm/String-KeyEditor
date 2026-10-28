@@ -1,6 +1,6 @@
 #include <glfwlib.h>
 #include <String-KeyEditor.h>
-int main() {
+int main(){
     if (!glfwInit()) {
         return -1;
     }
@@ -41,3 +41,4 @@ int main() {
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
+}
