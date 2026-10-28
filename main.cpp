@@ -1,4 +1,4 @@
-#include <glfwlib.h>
+#include <GLFW/glfw3.h>
 #include <String-KeyEditor.h>
 int main(){
     if (!glfwInit()) {
