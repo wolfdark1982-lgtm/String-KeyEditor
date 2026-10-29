@@ -4,7 +4,7 @@ int main(){
     if (!glfwInit()) {
         return -1;
     }
-    GLFWwindow* window = glfwCreateWindow(640, 480, "StringKeyEditor", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(100, 100, "StringKeyEditor", NULL, NULL);
     if (!window) {
         glfwTerminate();
         return -1;
