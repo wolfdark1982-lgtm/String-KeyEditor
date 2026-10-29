@@ -13,21 +13,23 @@ int main(){
     while (!glfwWindowShouldClose(window)) {
         if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS) {
             printf("Hello World!\n");
+            printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS) {
             printf("Hello!");
+            printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) {
             printf("Hi!");
-        }
-        if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) {
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS) {
             printf("Made By User123573");
+            printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS) {
             printf("Explosion!");
+            printf("\033[2J\033[1;1H");
         }
         glfwSwapBuffers(window);
         glfwPollEvents();
