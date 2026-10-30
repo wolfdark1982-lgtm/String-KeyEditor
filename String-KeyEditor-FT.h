@@ -6,13 +6,13 @@ inline void HelloWorld() {
 inline void Hello() {
     std::cout << 'Hello!' << std::endl;
 }
-inline void Hello() {
+inline void Hi() {
     std::cout << 'Hi!' << std::endl;
 }
-inline void Hello() {
+inline void MADEBC() {
     std::cout << 'Made By User123573' << std::endl;
 }
-inline void Hello() {
+inline void Explode() {
     std::cout << 'Explosions!' << std::endl;
 }
 
