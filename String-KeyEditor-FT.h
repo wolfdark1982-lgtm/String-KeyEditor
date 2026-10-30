@@ -1,18 +1,18 @@
 #pragma once
 #include <iostream>
 inline void HelloWorld() {
-    std::cout << 'Hello World!' << std::endl;
+    std::cout << "Hello World!" << std::endl;
 }
 inline void Hello() {
-    std::cout << 'Hello!' << std::endl;
+    std::cout << "Hello!" << std::endl;
 }
 inline void Hi() {
-    std::cout << 'Hi!' << std::endl;
+    std::cout << "Hi!" << std::endl;
 }
 inline void madebc() {
-    std::cout << 'Made By User123573' << std::endl;
+    std::cout << "Made By User123573" << std::endl;
 }
 inline void Explode() {
-    std::cout << 'Explosions!' << std::endl;
+    std::cout << "Explosions!" << std::endl;
 }
 
