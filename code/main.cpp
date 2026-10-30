@@ -1,5 +1,6 @@
 #include <GLFW/glfw3.h>
 #include <String-KeyEditor.h>
+#include <String-KeyEditor-FT.h>
 int main(){
     if (!glfwInit()) {
         return -1;
@@ -12,23 +13,23 @@ int main(){
     glfwMakeContextCurrent(window);
     while (!glfwWindowShouldClose(window)) {
         if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS) {
-            printf("Hello World!\n");
+            HelloWorld()
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS) {
-            printf("Hello!");
+            Hello()
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) {
-            printf("Hi!");
+            Hi()
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS) {
-            printf("Made By User123573");
+            madebc()
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS) {
-            printf("Explosion!");
+            Explode()
             printf("\033[2J\033[1;1H");
         }
         glfwSwapBuffers(window);
