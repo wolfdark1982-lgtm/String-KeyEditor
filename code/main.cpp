@@ -13,23 +13,23 @@ int main(){
     glfwMakeContextCurrent(window);
     while (!glfwWindowShouldClose(window)) {
         if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS) {
-            HelloWorld()
+            HelloWorld();
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS) {
-            Hello()
+            Hello();
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) {
-            Hi()
+            Hi();
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS) {
-            madebc()
+            madebc();
             printf("\033[2J\033[1;1H");
         }
         if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS) {
-            Explode()
+            Explode();
             printf("\033[2J\033[1;1H");
         }
         glfwSwapBuffers(window);
