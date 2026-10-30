@@ -9,7 +9,7 @@ inline void Hello() {
 inline void Hi() {
     std::cout << 'Hi!' << std::endl;
 }
-inline void MADEBC() {
+inline void madebc() {
     std::cout << 'Made By User123573' << std::endl;
 }
 inline void Explode() {
