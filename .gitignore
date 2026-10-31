@@ -1,5 +1,7 @@
-code\main.cpp
-code\mainwmol.cpp
+# Ignore specific C++ source files
+code/main.cpp
+code/mainwmol.cpp
 
+# Ignore specific Header files
 String-KeyEditor.h
 String-KeyEditor-FT.h
